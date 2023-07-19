@@ -1,1 +1,1 @@
-# kalix-trial-typescript-shoppingcart
+# kalix-trial-typescript-shoppingcart repo
