@@ -21,7 +21,7 @@
   },
   "config": {
     "typescript": true,
-    "dockerImage": "kcr.us-east-1.kalix.io/klikic2/kalix-trial-scala-ecommerce/kalix-trial-shoppingcart-ts",
+    "dockerImage": "my-docker-repo/kalix-trial-shoppingcart-ts",
     "sourceDir": "./src",
     "testSourceDir": "./test",
     "protoSourceDir": "./proto",
