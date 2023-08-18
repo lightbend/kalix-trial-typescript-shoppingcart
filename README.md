@@ -446,13 +446,13 @@ Result:
 ```
 kalix service list                                                                         
 NAME                                         AGE    REPLICAS   STATUS        IMAGE TAG                     
-kalix-trial-shoppingcart                     50s    0          Ready         1.0-SNAPSHOT                  
+kalix-trial-shoppingcart-ts                  50s    0          Ready         0.0.1                
 ```
 **Note**: When deploying service for the first time it can take up to 1 minute for internal provisioning
 #### Proxy connection to Kalix service via Kalix CLI
 1. Proxy connection to Kalix service via Kalix CLI
 ```
-kalix service proxy kalix-trial-shoppingcart
+kalix service proxy kalix-trial-shoppingcart-ts
 ```
 Proxy Kalix CLI command will expose service proxy connection on `localhost:8080`.
 #### Test

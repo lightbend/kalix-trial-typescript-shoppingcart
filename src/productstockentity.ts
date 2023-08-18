@@ -26,7 +26,6 @@ entity.setInitial(entityId => ProductStock.create({}));
 
 entity.setCommandHandlers({
   Create(command, state, ctx) {
-    console.log("Create: "+state.quantity);
     if(state.quantity == 0) {
       ctx.updateState(ProductStock.create({quantity: command.quantity}));
       return Reply.message({});

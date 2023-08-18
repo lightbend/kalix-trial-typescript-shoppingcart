@@ -15,7 +15,7 @@ describe("ProductStockService", () => {
   describe("Create", () => {
     it("should...", async () => {
       const entity = new MockValueEntity(productstockentity, entityId);
-      const productId = "prod1";
+      const productId = entityId;
       let quantity = 10;
       const createResult = await entity.handleCommand("Create",
           {
