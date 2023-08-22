@@ -1,5 +1,5 @@
 # Prerequisite
-Node 14<br>
+Node 18<br>
 [cURL](https://curl.se/)<br>
 Docker 20.10.14 or higher (to run locally)<br>
 # Introduction
@@ -84,7 +84,7 @@ Entity:
 ## Kickstart Kalix development project
 Execute in command line:
 ```
-npx @kalix-io/create-kalix-entity@latest kalix-trial-shoppingcart-ts --typescript
+npx @kalix-io/create-kalix-entity@1.0.8 kalix-trial-shoppingcart-ts --typescript
 ```
 And then:
 ```
