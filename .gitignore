@@ -1,0 +1,6 @@
+/user-function.desc
+/dist
+/lib/generated
+/node_modules
+/package-local.json
+/.idea
