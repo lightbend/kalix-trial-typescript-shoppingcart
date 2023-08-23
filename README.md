@@ -15,7 +15,7 @@ However, if you would like to better understand the `Kalix Developer Experience`
 ![Use case](images/ecommerce-design_kalix_services.png)<br>
 eCommerce use case is a simple shopping cart example consisting of product stock and shopping cart.
 Product stock models stock (simple quantity) of products that are being sold and Shopping Cart models list of products customer intends to buy.<br>
-In this exercise focus is on implementing Product Stock functionalities
+In this exercise the focus is on implementing Product Stock functionalities
 #### Product Stock
 Data model:
 - quantity
@@ -26,7 +26,7 @@ Operations:
 
 ### Kalix components
 Kalix components are building blocks used to abstract functionalities.<br>
-In this use case we are going to use Kalix component called `Entity`.<br>
+In this use case we are going to use a Kalix component called `Entity`.<br>
 ![Entity](images/e-commerce-kalix-component-entity.png)<br>
 Entity:
 - component for modeling of data and data business logic operations
@@ -84,7 +84,7 @@ Entity:
 ## Kickstart Kalix development project
 Execute in command line:
 ```
-npx @kalix-io/create-kalix-entity@1.0.8 kalix-trial-shoppingcart-ts --typescript
+npx @kalix-io/create-kalix-entity@1.1.0 kalix-trial-shoppingcart-ts --typescript
 ```
 And then:
 ```
@@ -231,7 +231,7 @@ return Reply.failure("Already created");
 }
 ```
 ### `get` endpoint
-Business logic for get is to product stock data if exists and if not return not found error.
+Business logic for get is to get product stock data if it exists and if not return not found error.
 ```
 Get(command, state, ctx) {
 if(state == ProductStock.create({}))
@@ -265,7 +265,7 @@ return Reply.message({});
 }
 ```
 ## Test
-Kalix comes with very rich test kit for unit and integration testing of Kalix code
+Kalix comes with very rich test kit for unit and integration testing of Kalix code.
 
 `Test kit` provides help (custom assertions, mocks,...) with:
 - unit testing of individual Kalix components (e.g `Entity`) in isolation
