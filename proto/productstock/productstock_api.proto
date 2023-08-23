@@ -4,7 +4,7 @@ import "google/protobuf/empty.proto";
 import "kalix/annotations.proto";
 import "google/api/annotations.proto";
 
-import "productstock_domain.proto";
+import "productstock/productstock_domain.proto";
 
 package com.example.shoppingcart.productstock;
 

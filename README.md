@@ -125,7 +125,7 @@ import "google/protobuf/empty.proto";
 import "kalix/annotations.proto";
 import "google/api/annotations.proto";
 
-import "com/example/shoppingcart/productstock/productstock_domain.proto";
+import "productstock/productstock_domain.proto";
 
 package com.example.shoppingcart.productstock;
 
@@ -183,6 +183,18 @@ service ProductStockService {
   }
 }
 ```
+### Add default ACL policy
+Default ACL policy needs to be added. <br>
+1. Create file `kalix_policy.proto` in `proto`
+2. Add this content to the file
+````
+syntax = "proto3";
+import "kalix/annotations.proto";
+option (kalix.file).acl = {
+    allow: {}
+};
+````
+**Note**: more info about [ACL (Access Control List)](https://docs.kalix.io/javascript/access-control.html)
 ## Implementing business logic
 ### Code generation
 1. Code generation from protobuf definitions
