@@ -405,7 +405,7 @@ Result:
 ```
 ### Deploy and run on Kalix Platform on Cloud Provider of your choice
 1. Install Kalix CLI
-   https://docs.kalix.io/setting-up/index.html#_1_install_the_kalix_cli
+   https://docs.kalix.io/kalix/install-kalix.html
 2. Kalix CLI
    1. Register (FREE)
    ```
