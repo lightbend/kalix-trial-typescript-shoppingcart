@@ -411,12 +411,12 @@ Result:
    ```
    kalix auth signup
    ```
-   **Note**: Following command will open a browser where registration information can be filled in<br>
+   **Note**: The command above will open a browser where registration information can be filled in<br>
    2. Login
    ```
    kalix auth login
    ```
-   **Note**: Following command will open a browser where authentication approval needs to be provided<br>
+   **Note**: The command above will open a browser where authentication approval needs to be provided<br>
    3. Check your organization name
    ```
    kalix organization list
