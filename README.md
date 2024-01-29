@@ -427,7 +427,7 @@ Result:
     kalix projects new kalix-trial-java-ecommerce --region=gcp-us-east1 --organization=your-organization-name
     ```
     For trial projects, provide `gcp-us-east1` as the region. Replace `your-organization-name` with your actual organization name obtained from the previous step.<br>
-4. Authenticate local docker for pushing docker image to `Kalix Container Registry (KCR)`
+4. Authenticate local docker for pushing docker images to `Kalix Container Registry (KCR)`
    ```
    kalix auth container-registry configure
    ```
